@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio | Desenvolvedor Front-end</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="header">
+        <nav class="navbar container">
+            <a href="#" class="logo">Dev<span>Portfólio</span>.</a>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-list">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content container">
+                <div class="hero-text">
+                    <h1>Olá, eu sou <span>Daniel</span></h1>
+                    <h2>Desenvolvedor Front-end Iniciante</h2>
+                    <p>Construindo experiências web modernas e responsivas. Apaixonado por transformar ideias em código.</p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">Ver Projetos</a>
+                        <a href="#contact" class="btn btn-secondary">Entrar em Contato</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <!-- Placeholder image utilizing a generic developer illustration -->
+                    <img src="https://via.placeholder.com/400x400/333/fff?text=Dev+Image" alt="Desenvolvedor Ilustração">
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about container">
+            <h2 class="section-title">Sobre Mim</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Sou um estudante entusiasta de desenvolvimento web, focado em Front-end. Comecei minha jornada recentemente e tenho me dedicado a aprender as tecnologias fundamentais da web.</p>
+                    <p>Meu objetivo é criar interfaces limpas, intuitivas e performáticas. Estou sempre em busca de novos desafios e aprendizados para evoluir minhas habilidades.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills container">
+            <h2 class="section-title">Minhas Habilidades</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML5</h3>
+                    <p>Estruturação semântica e acessível.</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-css3-alt"></i>
+                    <h3>CSS3</h3>
+                    <p>Estilização, Flexbox, Grid e Responsividade.</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-js"></i>
+                    <h3>JavaScript</h3>
+                    <p>Interatividade e manipulação do DOM.</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-git-alt"></i>
+                    <h3>Git</h3>
+                    <p>Controle de versão e colaboração.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects container">
+            <h2 class="section-title">Meus Projetos</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/300x200/444/fff?text=Projeto+1" alt="Projeto 1">
+                    </div>
+                    <div class="project-info">
+                        <h3>Landing Page</h3>
+                        <p>Uma landing page responsiva criada com HTML e CSS.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn-small">Demo</a>
+                            <a href="#" class="btn-small">Código</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/300x200/444/fff?text=Projeto+2" alt="Projeto 2">
+                    </div>
+                    <div class="project-info">
+                        <h3>Calculadora JS</h3>
+                        <p>Uma calculadora funcional desenvolvida com JavaScript puro.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn-small">Demo</a>
+                            <a href="#" class="btn-small">Código</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/300x200/444/fff?text=Projeto+3" alt="Projeto 3">
+                    </div>
+                    <div class="project-info">
+                        <h3>To-Do List</h3>
+                        <p>Aplicativo de lista de tarefas para gerenciar atividades diárias.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn-small">Demo</a>
+                            <a href="#" class="btn-small">Código</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact container">
+            <h2 class="section-title">Entre em Contato</h2>
+            <div class="contact-content">
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Seu Nome" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Seu Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Sua Mensagem" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                </form>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="mailto:email@exemplo.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 DevPortfólio. Desenvolvido com HTML, CSS e JS.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
