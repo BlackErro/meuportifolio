@@ -38,3 +38,6 @@ Este é um site de portfólio moderno, responsivo e interativo, criado para apre
 
 ---
 Desenvolvido por Daniel.
+
+link da pagina publicada
+https://blackerro.github.io/meuportifolio/
